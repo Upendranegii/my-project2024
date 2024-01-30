@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top{
+    width: 100%;
+    height: 28px;
+    background-color: rgb(110, 71, 71);
+}
+.top p {
+    display: inline-block;
+    margin-left: 80px;
+
+}
+.top a{
+    margin-left: 60px;
+    text-decoration: none;
+}
+
+.top i{
+ position: relative;
+ left: 1200px;
+ font-size: 20px;
+ margin-top: 3px;
+}
+i:hover{
+    color:yellow;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color:rgb(0, 0, 0);
+    position:sticky;
+    top: 0;
+}
+ul{
+    list-style-type: none;
+    margin-left:640px;
+}
+ul li{
+    display: inline-block;
+    font-size: 23px;
+    padding: 26px 10px;
+}
+ul li a{
+    color: white; 
+    margin-left: 40px;  
+    text-decoration: none;
+}
+
+.about-us{
+    width: 100%;
+    height: 600px;
+    margin-top: -5px;
+    background-color: #cfe8ff;
+}
+.img{
+    width: 50%;
+    height: 600px;
+    background-color: #68d6f1;
+    float: left;
+}
+.content{
+    width: 50%;
+    height: 600px;
+    background-color: #68d6f1;
+    float: right;
+}
+
+.content h1{
+    font-size: 60px;
+    margin-top: 70px;
+    background: -webkit-linear-gradient(rgb(203, 27, 30), rgb(228, 9, 9));
+    -webkit-background-clip: text;
+    background: -webkit-linear-gradient(rgb(241, 12, 12), rgb(16, 1, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content p{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 30px;
+}
+.content button{
+    font-size: 18px;
+    margin-top: 40px;
+    padding: 10px;
+    font-weight: 500;
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+}
+
+.product{
+    width: 100%;
+    height: 800px;
+    background-color: #c8e5ec;
+    position: static;
+}
+.product p{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 20px;
+    padding: 70px 0;
+}
+.product h1{
+    text-align: center;
+    margin-top: -40px;
+    font-size: 55px;
+     background: -webkit-linear-gradient(rgb(203, 27, 30), rgb(228, 9, 9));
+    -webkit-background-clip: text;
+    background: -webkit-linear-gradient(rgb(241, 12, 12), rgb(16, 1, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.contect-us{
+    width: 100%;
+    height: 700px;
+    background-color: #68d6f1;
+}
+.contect-us h2{
+    text-align: center;
+    font-size: 50px;
+    padding: 70px 0;
+    background: -webkit-linear-gradient(rgb(203, 27, 30), rgb(228, 9, 9));
+    -webkit-background-clip: text;
+    background: -webkit-linear-gradient(rgb(241, 12, 12), rgb(16, 1, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contect-us .map{
+  width: 50%;
+  height: 480px;
+  float: left;
+  background-color: yellow;
+  margin-left: 30px;
+}
+.contect-us .form{
+  width: 40%;
+  height: 480px;
+  float: right;
+   background-color: red;
+   margin-right: 80px;
+}
+
+
+/* images */
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
